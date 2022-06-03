@@ -1,5 +1,5 @@
 //código del cuadrado
-console.group("Cuadrado");
+//console.group("Cuadrado");
 
 //const ladoCuadrado = 5;
 //console.log("Los lados del cuadrado miden: " + ladoCuadrado + "cm");
@@ -19,7 +19,7 @@ function areacuadrado(lado)  {
 //console.log("El area del cuadrado es: " + areacuadrado + "cm^2");
 
 //código del triángulo
-console.group("Triángulo");
+//console.group("Triángulo");
 
 const ladoTriangulo1 = 6;
 const ladoTriangulo2 = 6;
@@ -52,7 +52,7 @@ const basetriangulo = 4;
    } 
 
 //código del circuloos
-console.group("circulo");
+//console.group("circulo");
 //radio
 //const radiocirculo = 4;
 //console.log("El radio del circulo es: " + radiocirculo + "cm");
@@ -66,7 +66,7 @@ function diametrocirculo(radio){
 
 //PI
 const PI = Math.PI;
-console.log("El PI del circulo es: " + PI + "cm");
+//console.log("El PI del circulo es: " + PI + "cm");
 
 //circunferencia
 function perimetrocirculo(radio){
@@ -86,4 +86,15 @@ function areacirculo(radio){
 
 
 console.groupEnd();
+
+//Aqui interactuamos con el html
+
+function calcularPerimetrocuadrado(){
+
+
+}
+
+function calcularAreacuadrado(){
+
+}
 
