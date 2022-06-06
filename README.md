@@ -12,3 +12,15 @@
 
 -paso 4: integrar js con html
 
+
+## Taller 2 porcentajes y descuentos
+
+
+-paso 1: definir la formula
+
+-paso 2: implementar las formulas en javascript 
+
+-paso 3: crear funcion
+
+-paso 4: integrar js con html
+
