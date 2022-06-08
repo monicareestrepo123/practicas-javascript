@@ -25,15 +25,11 @@ lista1.map(
     }
 );
 
-const lista1array = Object.entries(lista1count).sort(
-    function (valoracomulado ,nuevovalor) {
-        valoracomulado - nuevovalor
 
-    }
-);
-
-Object.entries(lista1count).sort (
+  const lista1array =  Object.entries(lista1count).sort (
     function (elementoA, elementoB) {
         return elementoA[1] - elementoB[1];
     }
-)
+);
+
+const moda = lista1array[lista1array.length -1];
