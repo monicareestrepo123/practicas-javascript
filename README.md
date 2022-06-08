@@ -24,3 +24,16 @@
 
 -paso 4: integrar js con html
 
+
+
+## Taller 3 promedio, mediana y moda
+
+
+-paso 1: definir las formula
+
+-paso 2: implementar las formulas en javascript 
+
+-paso 3: crear funcion
+
+-paso 4: integrar js con html
+
