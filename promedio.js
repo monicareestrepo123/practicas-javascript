@@ -12,10 +12,19 @@ for (let i = 0; i < lista1.length; i++) {
 
 const promediolista1 = sumalista1 / lista1.length;
 
-function calcularmedia(lista){
-    let sumalista = 0;
- for (let i = 0; i < listalength; i++) {
-    sumalista = sumalista + lista[i];
- }
+function calcularmedia(lista) {
+//     let sumalista = 0;
+//  for (let i = 0; i < lista.length; i++) {
+//     sumalista = sumalista + lista[i];
+//  }
+
+const sumalista = lista.reduce(
+    function (valoracomulado = 0, nuevoelemento) {
+        return valoracomulado + nuevoelemento;
+    }
+);
+
  const promediolista = sumalista / lista.length;
+
+ return promediolista;
 }
